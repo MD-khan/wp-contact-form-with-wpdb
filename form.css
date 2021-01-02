@@ -1,0 +1,33 @@
+.reservation {
+    background-image: url(img/bg_contact.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+@media(min-width: 768px) {
+    .reservation-info {
+        margin-left: 50%;
+    }
+}
+
+.reservation-form h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.reservation-form .field {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.reservation-form .field input,
+.reservation-form .field textarea {
+    border: 3px solid var(--black);
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+}
+
+.reservation-form .field input[type="submit"] {
+    border: none;
+}
